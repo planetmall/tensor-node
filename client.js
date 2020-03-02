@@ -4,7 +4,7 @@ const predictButton = document.getElementById("predict-button");
 
 const socket = io("http://localhost:8001", { reconnectionDelay: 300, reconnectionDelayMax: 300 });
 
-const testSample = [2.668, -114.333, -1.908, 4.786, 25.707, -45.21, 78, 0]; // Curveball
+const testSample = [2.668, -114.333, -1.908, 6.786, 20, -45.21, 78, 0]; // Curveball
 
 predictButton.onclick = () => {
   predictButton.disabled = true;
